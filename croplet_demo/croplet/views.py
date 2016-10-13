@@ -10,7 +10,6 @@ from django.shortcuts import redirect
 import requests
 import json
 import re
-import geojson
 import shapely.wkt
 
 

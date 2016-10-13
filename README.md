@@ -1,5 +1,3 @@
-THIS NEEDS SOME REFACTORING TO USE THE NEW OAUTH2 MECHANISM IN CROP-R
-
 cropr_demo
 ==========
 
@@ -13,6 +11,7 @@ Installation
 2. install requirements:
   1. pip install Django
   2. pip install requests
+  3. pip install shapely
 3. rename settings.copy to settings.py
 4. follow <a href="https://www.crop-r.com/apps/cropletdeveloper/tutorial/">the tutorial</a>
 5. copy `client_id` and `client_secret` to settings.py
