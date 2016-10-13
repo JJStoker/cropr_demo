@@ -15,7 +15,6 @@ Installation
 3. rename settings.copy to settings.py
 4. follow <a href="https://www.crop-r.com/apps/cropletdeveloper/tutorial/">the tutorial</a>
 5. copy `client_id` and `client_secret` to settings.py
-6. run ./manage.py syncdb
 7. run ./manage.py migrate
 8. run ./manage.py createsuperuser
 9. run ./manage.py runserver
