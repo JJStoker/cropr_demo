@@ -17,10 +17,10 @@ BASE_DIR = os.path.dirname(os.path.dirname(__file__))
 # See https://docs.djangoproject.com/en/1.6/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = ''
+SECRET_KEY = '21234JBasdfadfasdf232342kbnaASAHVVVZZzzzzzccRYhSsqw3tHGr'
 
-CROPLET_API_CLIENT_ID = '' # VERVANG DIT MET UW EIGEN CLIENT ID
-CROPLET_SECRET_API_KEY = '' # VERVANG DIT MET UW EIGEN CLIENT SECRET
+CROPLET_API_CLIENT_ID = '2DNe9SymZm6O0ukPYMAPXZr3bUsKPqepayaiFr8r' # VERVANG DIT MET UW EIGEN CLIENT ID
+CROPLET_SECRET_API_KEY = 'nAbq4X5fVFW1SV3JG5DzkDaZJl2YzImISCetTPez12m4NCc4CdmBUfLeJuvIjUXahpxnxwSOFqXKa2aMvkYi3iQfFwAw5oXmi6gmIa2yrpHKvT1yefgE9EIqhSyrQVC5' # VERVANG DIT MET UW EIGEN CLIENT SECRET
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -29,6 +29,7 @@ DEBUG = True
 ALLOWED_HOSTS = ['http://localhost:8000']
 
 STATIC_URL = '/static/'
+STATICFILES_DIRS = ( os.path.join(BASE_DIR, "/"), )
 
 # Application definition
 
@@ -38,7 +39,7 @@ INSTALLED_APPS = (
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
-    'django.contrib.staticfiles',
+    # 'django.contrib.staticfiles',
     'croplet_demo.croplet'
 )
 
